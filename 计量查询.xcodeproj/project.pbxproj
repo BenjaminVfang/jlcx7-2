@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A08458D1D49FF2C0009787B /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A08458C1D49FF2C0009787B /* extension.swift */; };
+		2A93AD031C350B2D00387AD5 /* ItemDetailViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A93AD021C350B2D00387AD5 /* ItemDetailViewContoller.swift */; };
+		2AF0FDE81C324A7300267C45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0FDE71C324A7300267C45 /* AppDelegate.swift */; };
+		2AF0FDEA1C324A7300267C45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0FDE91C324A7300267C45 /* ViewController.swift */; };
+		2AF0FDED1C324A7300267C45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF0FDEB1C324A7300267C45 /* Main.storyboard */; };
+		2AF0FDEF1C324A7300267C45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AF0FDEE1C324A7300267C45 /* Assets.xcassets */; };
+		2AF0FDF21C324A7300267C45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AF0FDF01C324A7300267C45 /* LaunchScreen.storyboard */; };
+		2AF0FE211C324B6D00267C45 /* SqlDegelte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF0FE201C324B6D00267C45 /* SqlDegelte.swift */; };
+		4606C44B1D3E526800942DFD /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4606C44A1D3E526800942DFD /* libsqlite3.0.tbd */; };
+		4635F8161DE55ED500907270 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635F8001DE55ED500907270 /* IQNSArray+Sort.swift */; };
+		4635F8171DE55ED500907270 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635F8011DE55ED500907270 /* IQUIScrollView+Additions.swift */; };
+		4635F8181DE55ED500907270 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635F8021DE55ED500907270 /* IQUITextFieldView+Additions.swift */; };
+		4635F8191DE55ED500907270 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635F8031DE55ED500907270 /* IQUIView+Hierarchy.swift */; };
+		4635F81A1DE55ED500907270 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635F8041DE55ED500907270 /* IQUIViewController+Additions.swift */; };
+		4635F81B1DE55ED500907270 /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635F8051DE55ED500907270 /* IQUIWindow+Hierarchy.swift */; };
+		4635F81C1DE55ED500907270 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635F8071DE55ED500907270 /* IQKeyboardManagerConstants.swift */; };
+		4635F81D1DE55ED500907270 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635F8081DE55ED500907270 /* IQKeyboardManagerConstantsInternal.swift */; };
+		4635F81E1DE55ED500907270 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635F8091DE55ED500907270 /* IQKeyboardManager.swift */; };
+		4635F81F1DE55ED500907270 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635F80B1DE55ED500907270 /* IQKeyboardReturnKeyHandler.swift */; };
+		4635F8201DE55ED500907270 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635F80D1DE55ED500907270 /* IQTextView.swift */; };
+		4635F8211DE55ED500907270 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635F80F1DE55ED500907270 /* IQBarButtonItem.swift */; };
+		4635F8221DE55ED500907270 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635F8101DE55ED500907270 /* IQPreviousNextView.swift */; };
+		4635F8231DE55ED500907270 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635F8111DE55ED500907270 /* IQTitleBarButtonItem.swift */; };
+		4635F8241DE55ED500907270 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635F8121DE55ED500907270 /* IQToolbar.swift */; };
+		4635F8251DE55ED500907270 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635F8131DE55ED500907270 /* IQUIView+IQKeyboardToolbar.swift */; };
+		4635F8261DE55ED500907270 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4635F8151DE55ED500907270 /* IQKeyboardManager.bundle */; };
+		465FC3E51D8963F80039F78E /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465FC3E21D8963F80039F78E /* SQLiteDB.swift */; };
+		465FC3E61D8963F80039F78E /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465FC3E31D8963F80039F78E /* SQLTable.swift */; };
+		465FC3E71D8963F80039F78E /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465FC3E41D8963F80039F78E /* String-Extras.swift */; };
+		467616E61E0039E2002715D4 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = 46B7D1181E00370D000FC234 /* data.db */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AF0FDF91C324A7300267C45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AF0FDDC1C324A7300267C45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AF0FDE31C324A7300267C45;
+			remoteInfo = MyfirstApp;
+		};
+		2AF0FE041C324A7300267C45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AF0FDDC1C324A7300267C45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AF0FDE31C324A7300267C45;
+			remoteInfo = MyfirstApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A0845891D49F88A0009787B /* 计量查询.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "计量查询.app"; path = "/Users/fzy/XCODE/jlcx7/build/Debug-iphoneos/计量查询.app"; sourceTree = "<absolute>"; };
+		2A08458A1D49F88A0009787B /* 计量查询.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "计量查询.xctest"; path = "/Users/fzy/XCODE/jlcx7/build/Debug-iphoneos/计量查询.xctest"; sourceTree = "<absolute>"; };
+		2A08458B1D49F88A0009787B /* 计量查询.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "计量查询.xctest"; path = "/Users/fzy/XCODE/jlcx7/build/Debug-iphoneos/计量查询.xctest"; sourceTree = "<absolute>"; };
+		2A08458C1D49FF2C0009787B /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		2A93AD021C350B2D00387AD5 /* ItemDetailViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailViewContoller.swift; sourceTree = "<group>"; };
+		2AF0FDE71C324A7300267C45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AF0FDE91C324A7300267C45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AF0FDEC1C324A7300267C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AF0FDEE1C324A7300267C45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AF0FDF11C324A7300267C45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AF0FDF31C324A7300267C45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF0FE201C324B6D00267C45 /* SqlDegelte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SqlDegelte.swift; sourceTree = "<group>"; };
+		2AF0FE231C32524C00267C45 /* SqlHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqlHeader.h; sourceTree = "<group>"; };
+		4606C44A1D3E526800942DFD /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		4635F8001DE55ED500907270 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		4635F8011DE55ED500907270 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		4635F8021DE55ED500907270 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		4635F8031DE55ED500907270 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		4635F8041DE55ED500907270 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		4635F8051DE55ED500907270 /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		4635F8071DE55ED500907270 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		4635F8081DE55ED500907270 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		4635F8091DE55ED500907270 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		4635F80A1DE55ED500907270 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		4635F80B1DE55ED500907270 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		4635F80D1DE55ED500907270 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		4635F80F1DE55ED500907270 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		4635F8101DE55ED500907270 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		4635F8111DE55ED500907270 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		4635F8121DE55ED500907270 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		4635F8131DE55ED500907270 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		4635F8151DE55ED500907270 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		465FC3E21D8963F80039F78E /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLiteDB.swift; sourceTree = "<group>"; };
+		465FC3E31D8963F80039F78E /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
+		465FC3E41D8963F80039F78E /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extras.swift"; sourceTree = "<group>"; };
+		46B7D1181E00370D000FC234 /* data.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.db; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AF0FDE11C324A7300267C45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4606C44B1D3E526800942DFD /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AF0FDF51C324A7300267C45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AF0FE001C324A7300267C45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AF0FDDB1C324A7300267C45 = {
+			isa = PBXGroup;
+			children = (
+				2AF0FE231C32524C00267C45 /* SqlHeader.h */,
+				46B7D1181E00370D000FC234 /* data.db */,
+				4606C44A1D3E526800942DFD /* libsqlite3.0.tbd */,
+				2AF0FDE61C324A7300267C45 /* 计量查询 */,
+				2AF0FE181C324B1F00267C45 /* SQLiteDB */,
+			);
+			sourceTree = "<group>";
+		};
+		2AF0FDE61C324A7300267C45 /* 计量查询 */ = {
+			isa = PBXGroup;
+			children = (
+				4635F7FE1DE55ED500907270 /* IQKeyboardManagerSwift */,
+				2AF0FDE71C324A7300267C45 /* AppDelegate.swift */,
+				2AF0FDE91C324A7300267C45 /* ViewController.swift */,
+				2AF0FDEB1C324A7300267C45 /* Main.storyboard */,
+				2AF0FDEE1C324A7300267C45 /* Assets.xcassets */,
+				2AF0FDF01C324A7300267C45 /* LaunchScreen.storyboard */,
+				2AF0FDF31C324A7300267C45 /* Info.plist */,
+				2AF0FE201C324B6D00267C45 /* SqlDegelte.swift */,
+				2A93AD021C350B2D00387AD5 /* ItemDetailViewContoller.swift */,
+				2A08458C1D49FF2C0009787B /* extension.swift */,
+			);
+			name = "计量查询";
+			path = MyfirstApp;
+			sourceTree = "<group>";
+		};
+		2AF0FE181C324B1F00267C45 /* SQLiteDB */ = {
+			isa = PBXGroup;
+			children = (
+				465FC3E21D8963F80039F78E /* SQLiteDB.swift */,
+				465FC3E31D8963F80039F78E /* SQLTable.swift */,
+				465FC3E41D8963F80039F78E /* String-Extras.swift */,
+			);
+			path = SQLiteDB;
+			sourceTree = "<group>";
+		};
+		4635F7FE1DE55ED500907270 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				4635F7FF1DE55ED500907270 /* Categories */,
+				4635F8061DE55ED500907270 /* Constants */,
+				4635F8091DE55ED500907270 /* IQKeyboardManager.swift */,
+				4635F80A1DE55ED500907270 /* IQKeyboardManagerSwift.h */,
+				4635F80B1DE55ED500907270 /* IQKeyboardReturnKeyHandler.swift */,
+				4635F80C1DE55ED500907270 /* IQTextView */,
+				4635F80E1DE55ED500907270 /* IQToolbar */,
+				4635F8141DE55ED500907270 /* Resources */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		4635F7FF1DE55ED500907270 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4635F8001DE55ED500907270 /* IQNSArray+Sort.swift */,
+				4635F8011DE55ED500907270 /* IQUIScrollView+Additions.swift */,
+				4635F8021DE55ED500907270 /* IQUITextFieldView+Additions.swift */,
+				4635F8031DE55ED500907270 /* IQUIView+Hierarchy.swift */,
+				4635F8041DE55ED500907270 /* IQUIViewController+Additions.swift */,
+				4635F8051DE55ED500907270 /* IQUIWindow+Hierarchy.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		4635F8061DE55ED500907270 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4635F8071DE55ED500907270 /* IQKeyboardManagerConstants.swift */,
+				4635F8081DE55ED500907270 /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4635F80C1DE55ED500907270 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				4635F80D1DE55ED500907270 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		4635F80E1DE55ED500907270 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				4635F80F1DE55ED500907270 /* IQBarButtonItem.swift */,
+				4635F8101DE55ED500907270 /* IQPreviousNextView.swift */,
+				4635F8111DE55ED500907270 /* IQTitleBarButtonItem.swift */,
+				4635F8121DE55ED500907270 /* IQToolbar.swift */,
+				4635F8131DE55ED500907270 /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		4635F8141DE55ED500907270 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4635F8151DE55ED500907270 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AF0FDE31C324A7300267C45 /* 计量查询 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AF0FE0C1C324A7300267C45 /* Build configuration list for PBXNativeTarget "计量查询" */;
+			buildPhases = (
+				2AF0FDE01C324A7300267C45 /* Sources */,
+				2AF0FDE11C324A7300267C45 /* Frameworks */,
+				2AF0FDE21C324A7300267C45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "计量查询";
+			productName = MyfirstApp;
+			productReference = 2A0845891D49F88A0009787B /* 计量查询.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AF0FDF71C324A7300267C45 /* 计量查询Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AF0FE0F1C324A7300267C45 /* Build configuration list for PBXNativeTarget "计量查询Tests" */;
+			buildPhases = (
+				2AF0FDF41C324A7300267C45 /* Sources */,
+				2AF0FDF51C324A7300267C45 /* Frameworks */,
+				2AF0FDF61C324A7300267C45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AF0FDFA1C324A7300267C45 /* PBXTargetDependency */,
+			);
+			name = "计量查询Tests";
+			productName = MyfirstAppTests;
+			productReference = 2A08458A1D49F88A0009787B /* 计量查询.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AF0FE021C324A7300267C45 /* 计量查询UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AF0FE121C324A7300267C45 /* Build configuration list for PBXNativeTarget "计量查询UITests" */;
+			buildPhases = (
+				2AF0FDFF1C324A7300267C45 /* Sources */,
+				2AF0FE001C324A7300267C45 /* Frameworks */,
+				2AF0FE011C324A7300267C45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AF0FE051C324A7300267C45 /* PBXTargetDependency */,
+			);
+			name = "计量查询UITests";
+			productName = MyfirstAppUITests;
+			productReference = 2A08458B1D49F88A0009787B /* 计量查询.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AF0FDDC1C324A7300267C45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = fzy;
+				TargetAttributes = {
+					2AF0FDE31C324A7300267C45 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 93PQN93NCQ;
+						DevelopmentTeamName = "振宇 方 (Personal Team)";
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
+					};
+					2AF0FDF71C324A7300267C45 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+						TestTargetID = 2AF0FDE31C324A7300267C45;
+					};
+					2AF0FE021C324A7300267C45 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+						TestTargetID = 2AF0FDE31C324A7300267C45;
+					};
+				};
+			};
+			buildConfigurationList = 2AF0FDDF1C324A7300267C45 /* Build configuration list for PBXProject "计量查询" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AF0FDDB1C324A7300267C45;
+			productRefGroup = 2AF0FDDB1C324A7300267C45;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AF0FDE31C324A7300267C45 /* 计量查询 */,
+				2AF0FDF71C324A7300267C45 /* 计量查询Tests */,
+				2AF0FE021C324A7300267C45 /* 计量查询UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AF0FDE21C324A7300267C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467616E61E0039E2002715D4 /* data.db in Resources */,
+				4635F8261DE55ED500907270 /* IQKeyboardManager.bundle in Resources */,
+				2AF0FDF21C324A7300267C45 /* LaunchScreen.storyboard in Resources */,
+				2AF0FDEF1C324A7300267C45 /* Assets.xcassets in Resources */,
+				2AF0FDED1C324A7300267C45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AF0FDF61C324A7300267C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AF0FE011C324A7300267C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AF0FDE01C324A7300267C45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A93AD031C350B2D00387AD5 /* ItemDetailViewContoller.swift in Sources */,
+				465FC3E71D8963F80039F78E /* String-Extras.swift in Sources */,
+				4635F8221DE55ED500907270 /* IQPreviousNextView.swift in Sources */,
+				4635F8231DE55ED500907270 /* IQTitleBarButtonItem.swift in Sources */,
+				465FC3E61D8963F80039F78E /* SQLTable.swift in Sources */,
+				4635F81D1DE55ED500907270 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				4635F8251DE55ED500907270 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				4635F8171DE55ED500907270 /* IQUIScrollView+Additions.swift in Sources */,
+				4635F8191DE55ED500907270 /* IQUIView+Hierarchy.swift in Sources */,
+				4635F8241DE55ED500907270 /* IQToolbar.swift in Sources */,
+				2AF0FE211C324B6D00267C45 /* SqlDegelte.swift in Sources */,
+				4635F81A1DE55ED500907270 /* IQUIViewController+Additions.swift in Sources */,
+				4635F81F1DE55ED500907270 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				4635F8181DE55ED500907270 /* IQUITextFieldView+Additions.swift in Sources */,
+				2AF0FDEA1C324A7300267C45 /* ViewController.swift in Sources */,
+				465FC3E51D8963F80039F78E /* SQLiteDB.swift in Sources */,
+				4635F81E1DE55ED500907270 /* IQKeyboardManager.swift in Sources */,
+				2AF0FDE81C324A7300267C45 /* AppDelegate.swift in Sources */,
+				4635F8211DE55ED500907270 /* IQBarButtonItem.swift in Sources */,
+				2A08458D1D49FF2C0009787B /* extension.swift in Sources */,
+				4635F8161DE55ED500907270 /* IQNSArray+Sort.swift in Sources */,
+				4635F81C1DE55ED500907270 /* IQKeyboardManagerConstants.swift in Sources */,
+				4635F8201DE55ED500907270 /* IQTextView.swift in Sources */,
+				4635F81B1DE55ED500907270 /* IQUIWindow+Hierarchy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AF0FDF41C324A7300267C45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AF0FDFF1C324A7300267C45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AF0FDFA1C324A7300267C45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AF0FDE31C324A7300267C45 /* 计量查询 */;
+			targetProxy = 2AF0FDF91C324A7300267C45 /* PBXContainerItemProxy */;
+		};
+		2AF0FE051C324A7300267C45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AF0FDE31C324A7300267C45 /* 计量查询 */;
+			targetProxy = 2AF0FE041C324A7300267C45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AF0FDEB1C324A7300267C45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AF0FDEC1C324A7300267C45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AF0FDF01C324A7300267C45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AF0FDF11C324A7300267C45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AF0FE0A1C324A7300267C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AF0FE0B1C324A7300267C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AF0FE0D1C324A7300267C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: chen wenxi (29E44R9FG2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 93PQN93NCQ;
+				INFOPLIST_FILE = MyfirstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fzy.com.MyfirstApp;
+				PRODUCT_NAME = "计量查询";
+				PROVISIONING_PROFILE = "6ff0fa84-b734-4685-aea7-199ad5a35ea3";
+				PROVISIONING_PROFILE_SPECIFIER = thunder;
+				SWIFT_OBJC_BRIDGING_HEADER = SqlHeader.h;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2AF0FE0E1C324A7300267C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: chen wenxi (29E44R9FG2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 93PQN93NCQ;
+				INFOPLIST_FILE = MyfirstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fzy.com.MyfirstApp;
+				PRODUCT_NAME = "计量查询";
+				PROVISIONING_PROFILE = "6ff0fa84-b734-4685-aea7-199ad5a35ea3";
+				PROVISIONING_PROFILE_SPECIFIER = thunder;
+				SWIFT_OBJC_BRIDGING_HEADER = SqlHeader.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2AF0FE101C324A7300267C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyfirstAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fzy.com.MyfirstAppTests;
+				PRODUCT_NAME = "计量查询";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/计量查询.app/计量查询";
+			};
+			name = Debug;
+		};
+		2AF0FE111C324A7300267C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyfirstAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fzy.com.MyfirstAppTests;
+				PRODUCT_NAME = "计量查询";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/计量查询.app/计量查询";
+			};
+			name = Release;
+		};
+		2AF0FE131C324A7300267C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyfirstAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fzy.com.MyfirstAppUITests;
+				PRODUCT_NAME = "计量查询";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MyfirstApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		2AF0FE141C324A7300267C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyfirstAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fzy.com.MyfirstAppUITests;
+				PRODUCT_NAME = "计量查询";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MyfirstApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AF0FDDF1C324A7300267C45 /* Build configuration list for PBXProject "计量查询" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF0FE0A1C324A7300267C45 /* Debug */,
+				2AF0FE0B1C324A7300267C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AF0FE0C1C324A7300267C45 /* Build configuration list for PBXNativeTarget "计量查询" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF0FE0D1C324A7300267C45 /* Debug */,
+				2AF0FE0E1C324A7300267C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AF0FE0F1C324A7300267C45 /* Build configuration list for PBXNativeTarget "计量查询Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF0FE101C324A7300267C45 /* Debug */,
+				2AF0FE111C324A7300267C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AF0FE121C324A7300267C45 /* Build configuration list for PBXNativeTarget "计量查询UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF0FE131C324A7300267C45 /* Debug */,
+				2AF0FE141C324A7300267C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AF0FDDC1C324A7300267C45 /* Project object */;
+}
